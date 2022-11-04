@@ -1,0 +1,12 @@
+.page-header {
+  border-bottom: 1px solid $header-border-color;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.page-header__nav {
+  display: flex;
+  align-items: center;
+}
