@@ -1,3 +1,4 @@
+// colors
 $primary-text-color: #757575;
 $secondary-text-color: #212121;
 $first-background-color: #2f303a;
@@ -15,5 +16,11 @@ $card-gap: 30px;
 $work-text-background: rgba(47, 48, 58, 0.8);
 $overlay-background: rgba(33, 150, 243, 0.9);
 
+// fonts
 $main-font: 'Roboto', sans-serif;
 $second-font: 'Raleway', sans-serif;
+
+// breakpoints
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1200px;
