@@ -12,12 +12,6 @@
   overflow: hidden;
 }
 
-.mobile-socials, .mobile-contacts, .mobile-nav__list, .projects-list, .filter, .footer-contacts, .clients-list, .socials-list, .team-list, .works-list, .advantages-list, .header-contacts, .site-nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 h1,
 h2,
 h3,
@@ -39,6 +33,12 @@ body {
   background-color: #ffffff;
   color: #757575;
   font-family: "Roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .section {

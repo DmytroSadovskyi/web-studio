@@ -1,7 +1,3 @@
-.footer-contacts {
-  @extend %list;
-}
-
 .footer-contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }

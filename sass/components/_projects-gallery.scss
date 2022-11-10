@@ -1,6 +1,4 @@
 .projects-list {
-  @extend %list;
-
   @media screen and (min-width: $tablet) {
     display: flex;
     flex-wrap: wrap;

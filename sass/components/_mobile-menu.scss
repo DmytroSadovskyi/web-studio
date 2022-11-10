@@ -36,10 +36,6 @@
   fill: currentColor;
 }
 
-.mobile-nav__list {
-  @extend %list;
-}
-
 .mobile-nav__item {
   margin-bottom: 32px;
 
@@ -59,10 +55,6 @@
   &--active {
     color: $accent-color;
   }
-}
-
-.mobile-contacts {
-  @extend %list;
 }
 
 .mobile-contacts__item {
@@ -89,8 +81,6 @@
 }
 
 .mobile-socials {
-  @extend %list;
-
   display: flex;
 }
 
