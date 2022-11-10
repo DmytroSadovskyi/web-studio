@@ -6,6 +6,7 @@
 }
 
 .works-list {
+  @extend %list;
   display: flex;
   gap: $card-gap;
 }
