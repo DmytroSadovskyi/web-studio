@@ -4,18 +4,6 @@
   background-color: $first-background-color;
 }
 
-.info {
-  @media screen and (max-width: 1199px) {
-    margin-bottom: 60px;
-  }
-}
-
-.socials {
-  @media screen and (max-width: 1199px) {
-    margin-bottom: 60px;
-  }
-}
-
 .footer-container {
   @media screen and (max-width: 1199px) {
     text-align: center;
@@ -32,5 +20,17 @@
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+  }
+}
+
+.info {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+  }
+}
+
+.socials {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
   }
 }
