@@ -37,10 +37,8 @@
 }
 
 .mobile-nav__item {
-  margin-bottom: 32px;
-
-  &:last-child {
-    margin-bottom: 308px;
+  &:not(:last-child) {
+    margin-bottom: 32px;
   }
 }
 
@@ -55,6 +53,11 @@
   &--active {
     color: $accent-color;
   }
+}
+
+.mobile-contacts {
+  margin-top: auto;
+  margin-bottom: 65px;
 }
 
 .mobile-contacts__item {
