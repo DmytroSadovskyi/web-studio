@@ -321,7 +321,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .header-contacts__icon-mail--start,
-.header-contacts__icon-tel--start {
+  .header-contacts__icon-tel--start {
     margin-right: 10px;
   }
 }
@@ -1526,4 +1526,77 @@ body {
     width: 800px;
     height: 600px;
   }
+}
+
+.hover-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+}
+
+.letter {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: center;
+  color: white;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.W {
+  color: #2196f3;
+  left: 10%;
+  top: 10%;
+}
+
+.S {
+  color: #212121;
+  right: 10%;
+  bottom: 10%;
+}
+
+.label {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 30%;
+  left: -20%;
+  line-height: 100px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.hover-container:hover .W {
+  -webkit-transform: translateX(50px) rotate(90deg);
+          transform: translateX(50px) rotate(90deg);
+}
+
+.hover-container:hover .S {
+  -webkit-transform: translateX(-50px) rotate(-90deg);
+          transform: translateX(-50px) rotate(-90deg);
+}
+
+.hover-container:hover .label {
+  opacity: 1;
+}
+
+.hover-container:hover .letter {
+  opacity: 0;
 }/*# sourceMappingURL=main.css.map */
